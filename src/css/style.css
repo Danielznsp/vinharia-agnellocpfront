@@ -1,0 +1,19 @@
+body {
+    background-color:#1b0a10;
+    color: white;
+}
+
+#topo {
+    background-color: #39111f;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.corpo {
+    background-color: #4a172a;
+}
