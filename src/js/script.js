@@ -9,7 +9,8 @@ let safra = prompt("Digite a safra (ano): ");
 
 
 //Informações coletadas console.log()
+console.log("Cadastro do Vinho");
+console.log("-----------------------------");
+console.log("Nome:", nome);
+console.log("Tipo:", tipo);
 
-
-
-console.log("Tipo:" , tipo );
