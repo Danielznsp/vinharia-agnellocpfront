@@ -88,7 +88,43 @@ to {
 
 
 //pagina equipe.html
+.time-01 nav a:hover {
+    color: gold;
+}
 
+.time-01 .nosso-time {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.time-01 .membro {
+   background: #5a0f0f;
+   padding: 25px;
+   border-radius: 10px;
+   width: 200px;
+   transition: 0.3s; 
+}
+ .time-01 .membro img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+ }
+
+ .time-01 .membro img {
+    transform: rotate(3deg);
+ }
+
+ .time-01 .membro:nth-child(2) {
+    border: 2px solid gold;
+ }
+
+ .time-01 .membro p::first-letter {
+    color: gold;
+    font-size: 18px;
+ }
 //pagina historia.html
 
