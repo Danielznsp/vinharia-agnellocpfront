@@ -43,40 +43,31 @@ pagina equipe.html
 
 pagina historia.html
 
-@keyframes descerNavbar {
-  from {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 
-nav {
-  background-color: #ddd;
+
+.topico {
+  background-color: #9c8f8f;
   padding: 10px;
    animation: descerNavbar 1s ease-out;
 }
 
-nav ul {
+.topico ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-nav ul li {
+.topico ul li {
   display: inline;
 }
 
-nav ul li a {
+.topico ul li a {
   text-decoration: none;
   color: black;
   padding: 10px 20px;
 }
 
-nav ul li a:hover {
+.topico ul li a:hover {
   background-color: #800020;
   color: white;
   border-radius: 5px;
@@ -86,12 +77,12 @@ section {
   padding: 20px;
 }
 
-p::first-letter {
+.historia::first-letter {
   font-size: 28px;
   font-weight: bold;
   color: #ffcccc;
 }
-::selection {
+.historia ::selection {
   background-color: #ffcccc;
   color: #5a0f1c;
 }
